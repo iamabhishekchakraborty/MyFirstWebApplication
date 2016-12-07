@@ -12,7 +12,7 @@ namespace MyFirstWebApplication
         protected void Page_Load(object sender, EventArgs e)
         {
             /* 
-             * link(s) to help in creation
+             * link(s) to help in creation of web app
              * https://msdn.microsoft.com/en-us/library/ms243156(v=vs.110).aspx
              */
         }
