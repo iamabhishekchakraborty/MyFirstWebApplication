@@ -11,10 +11,20 @@ namespace MyFirstWebApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            /* 
-             * link(s) to help in creation of web app
-             * https://msdn.microsoft.com/en-us/library/ms243156(v=vs.110).aspx
-             */
+            
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (this.RadioButtonList1.SelectedValue == "Blue")
+            {
+                Response.Redirect("Blue.aspx");
+            }
+            else
+            {
+                Response.Redirect("Red.aspx");
+            }
+        }
+        
     }
 }

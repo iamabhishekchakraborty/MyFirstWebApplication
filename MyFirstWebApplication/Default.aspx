@@ -12,10 +12,10 @@
     
     </div>
         <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-            <asp:ListItem Selected="True">RED</asp:ListItem>
-            <asp:ListItem>BLUE</asp:ListItem>
+            <asp:ListItem Selected="True">Red</asp:ListItem>
+            <asp:ListItem>Blue</asp:ListItem>
         </asp:RadioButtonList>
-        <asp:Button ID="Button1" runat="server" Text="Submit" />
+        <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
     </form>
 </body>
 </html>
