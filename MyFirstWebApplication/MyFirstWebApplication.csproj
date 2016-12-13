@@ -62,6 +62,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Red.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Yellow.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Blue.aspx.cs">
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="Red.aspx.designer.cs">
       <DependentUpon>Red.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yellow.aspx.cs">
+      <DependentUpon>Yellow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yellow.aspx.designer.cs">
+      <DependentUpon>Yellow.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

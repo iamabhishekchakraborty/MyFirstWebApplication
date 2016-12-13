@@ -20,9 +20,13 @@ namespace MyFirstWebApplication
             {
                 Response.Redirect("Blue.aspx");
             }
-            else
+            else if (this.RadioButtonList1.SelectedValue == "Red")
             {
                 Response.Redirect("Red.aspx");
+            }
+            else
+            {
+                Response.Redirect("Yellow.aspx");
             }
         }
         
