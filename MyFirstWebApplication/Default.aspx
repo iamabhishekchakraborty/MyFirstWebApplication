@@ -14,8 +14,11 @@
         <asp:RadioButtonList ID="RadioButtonList1" runat="server">
             <asp:ListItem Selected="True">Red</asp:ListItem>
             <asp:ListItem>Blue</asp:ListItem>
+            <asp:ListItem>Yellow</asp:ListItem>
         </asp:RadioButtonList>
+        <p>
         <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
+        </p>
     </form>
 </body>
 </html>
